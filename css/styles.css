@@ -1,0 +1,225 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+/* font-size: 300px; changes here are not working, the changes to h1 have been made in bootstrap.css file */
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p{
+  color:  grey;
+}
+
+/* ///////////////////////////////////////////////TITLE SECTION///////////////////////////// */
+#title
+{
+  /* background-color: #ff4c68; */
+  /* color : #fff; */
+}
+
+
+/* Headings */
+
+.big-heading{
+  font-size: 60px;
+  color: #fff;
+}
+.icon{
+  color:#ff4c68;
+}
+/* ///////////////////////////////////////Sections//////////////////////////////////////////////// */
+.colored-section{
+  background-color: #ff4c68;
+  color : #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+.container-fluid{
+padding-top: 3%;
+padding-bottom: 7%;
+/* padding-right: 15%;changes here are not working, the changes to padding right have been made in bootstrap.css file  */
+/* padding-left: 15%;changes here are not working, the changes to padding left have been made in bootstrap.css file  */
+}
+
+/**************************************************** NAVBAR***********************************************************/
+
+.navbar{
+  /* padding-bottom: 12rem;changes here are not working, the changes to padding bottom have been made in bootstrap.css file */
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  /* font-size: 6.5rem; this is not working to change this property we have to change it from bootstrap.css file */
+}
+.navbar-item{
+  padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+
+}
+
+.download-button{
+  /* margin 5% 3% 5% 0%; this is not working to change this property we have to change it from bootstrap.css file, we called .download-button class in bootstrap.css file and made changes in it */
+}
+
+/* Title Image */
+
+.title-image{
+  height: 600px;
+  width:280px;
+  transform: rotate(25deg);
+  position: absolute;
+left: 55%;
+}
+
+/* Features */
+
+#features{
+  padding : 7% 15%;
+  position: relative;
+  z-index:1;
+}
+.feature-box{
+text-align: center;
+  /* padding-right: 20%; padding right and left arent working here , so we will try to make changes in bootstrap.css file */
+  /* padding-left: 20%;  padding right and left arent working here , so we will try to make changes in bootstrap.css file */
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+.feature-text
+{
+  font-size: 1.75rem;
+}
+/* TESTIMONIALS SECTION */
+
+#testimonials{
+
+  background-color:  #ef8172 ;
+ text-align: center;
+ color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image
+{
+  width : 10%;
+  border-radius: 100%;
+  margin : 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*/////////////////////////////////////////////// pricing section/////////////////////*/
+
+/*.pricingsection{
+padding: 100px;
+}*/
+
+.card-footer{
+  height: 315px;
+}
+
+.cardbtn{
+  margin-top: 3px;
+}
+
+#pricing{
+  padding : 100px;
+  text-align: center;
+}
+
+.pricingcolumn{
+  margin-top: 5px;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dogbreed-text
+{
+  font-size: 1.75rem;
+}
+/*////////////////////////////////////////////////////// footer ///////////////////////////////////////////////////*/
+#cta{
+  text-align: center;
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+#footer{
+  padding-top:10px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.ftbutton{
+   /* margin: 3% 3%; property change in bootstrap.css */
+ }
+.copyrighttxt{
+  color: black;
+}
+
+
+@media(max-width: 1000px) {
+  #title{
+    text-align: center;
+
+  }
+  .title-image{
+    margin-top: 30px;
+    position:static;
+    transform: rotate(0);
+  }
+  .colored-section{
+    background-color: black;
+    color : #fff;
+  }
+  #press{
+    background-color: #73777B;
+    text-align: center;
+    padding: 3%;
+  }
+  #testimonials{
+
+    background-color: #73777B ;
+   text-align: center;
+   color: #fff;
+  }
+  .icon{
+    color: #73777B;
+    margin-bottom: 1rem;
+  }
+  .icon:hover
+  {
+    color: black;
+  }
+}
+
+.footer-icon{
+  margin: 3% 1%;
+}
