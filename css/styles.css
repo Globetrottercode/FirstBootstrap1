@@ -196,28 +196,25 @@ padding: 100px;
     transform: rotate(0);
   }
   .colored-section{
-    background-color: black;
+   
     color : #fff;
   }
   #press{
-    background-color: #73777B;
+   
     text-align: center;
     padding: 3%;
   }
   #testimonials{
 
-    background-color: #73777B ;
+   
    text-align: center;
    color: #fff;
   }
   .icon{
-    color: #73777B;
+    
     margin-bottom: 1rem;
   }
-  .icon:hover
-  {
-    color: black;
-  }
+
 }
 
 .footer-icon{
